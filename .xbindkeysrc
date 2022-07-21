@@ -42,11 +42,66 @@
 "xbindkeys_show" 
   control+shift + q
 
+#Key configs for portuguese "a"
 "xte 'str á'"
   Alt + a + release
 
 "xte 'str Á'"
   Alt + Shift + a + release
+
+"xte 'str ã'"
+   Control + release + Alt + a
+
+"xte 'str Ã'"
+   Control + Shift + release + Alt + a
+
+
+#Key configs for portuguese "e"
+"xte 'str é'"
+  Alt + e + release
+
+"xte 'str É'"
+  Alt + Shift + e + release
+
+"xte 'str ê'"
+   Control + release + Alt + e
+
+"xte 'str Ê'"
+   Control + Shift + release + Alt + e
+
+#Key configs for portuguese "o"
+"xte 'str ó'"
+  Alt + o + release
+
+"xte 'str Ó'"
+  Alt + Shift + o + release
+
+"xte 'str õ'"
+   Control + release + Alt + o
+
+"xte 'str Õ'"
+   Control + Shift + release + Alt + o
+
+#Key configs for portuguese "i"
+"xte 'str í'"
+  Alt + i + release
+
+"xte 'str Í'"
+  Alt + Shift + i + release
+
+#Key configs for portuguese "u"
+"xte 'str ú'"
+  Alt + u + release
+
+"xte 'str Ú'"
+  Alt + Shift + u + release
+
+"xte 'str û'"
+   Control + release + Alt + u
+
+"xte 'str Û'"
+   Control + Shift + release + Alt + u
+
 
 ##################################
 # End of xbindkeys configuration #
