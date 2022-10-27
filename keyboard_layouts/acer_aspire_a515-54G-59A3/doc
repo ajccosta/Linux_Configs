@@ -13,3 +13,7 @@ Then the layout is switched with:
 	xkbcomp new_layout.xkb $DISPLAY	
 
 Added 2 aliases to easily switch between them.
+
+
+macintoshA1644_cmmnd.xkb changed "Left Command" key to be a "Left Control" key.
+	Left Control does nothing.
