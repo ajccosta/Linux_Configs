@@ -17,3 +17,6 @@ Added 2 aliases to easily switch between them.
 
 macintoshA1644_cmmnd.xkb changed "Left Command" key to be a "Left Control" key.
 	Left Control does nothing.
+
+To disable Menu Launcher on Super_L (left command) insert kwinrc into ~/.config/
+	https://superuser.com/questions/1156130/kde-disable-super-l-windows-key-key-shortcut-as-menu-launcher
