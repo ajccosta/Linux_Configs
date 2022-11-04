@@ -14,7 +14,7 @@ xkb_keycodes "evdev+aliases(qwerty)" {
     <AE09> = 18;
     <AE10> = 19;
     <AE11> = 20;
-    //<AE12> = 21; //Removed 21
+    <AE12> = 21;
     <BKSP> = 22;
      <TAB> = 23;
     <AD01> = 24;
@@ -27,10 +27,10 @@ xkb_keycodes "evdev+aliases(qwerty)" {
     <AD08> = 31;
     <AD09> = 32;
     <AD10> = 33;
-    <AD11> = 21; //Changed from 34 to 21
+    <AD11> = 34;
     <AD12> = 35;
     <RTRN> = 36;
-    <LCTL> = 133; //Changed from 37 to 133
+    <LCTL> = 37;
     <AC01> = 38;
     <AC02> = 39;
     <AC03> = 40;
@@ -41,10 +41,10 @@ xkb_keycodes "evdev+aliases(qwerty)" {
     <AC08> = 45;
     <AC09> = 46;
     <AC10> = 47;
-    <AC11> = 34; //Changed from 48 to 34
-    <TLDE> = 51; //Changed from 49 to 51
+    <AC11> = 48;
+    <TLDE> = 49;
     <LFSH> = 50;
-    <BKSL> = 48; //Changed from 51 to 48
+    <BKSL> = 51;
     <AB01> = 52;
     <AB02> = 53;
     <AB03> = 54;
@@ -86,7 +86,7 @@ xkb_keycodes "evdev+aliases(qwerty)" {
      <KP0> = 90;
     <KPDL> = 91;
     <LVL3> = 92;
-    <LSGT> = 49; //Changed from 94 to 49
+    <LSGT> = 94;
     <FK11> = 95;
     <FK12> = 96;
     <AB11> = 97;
@@ -125,7 +125,7 @@ xkb_keycodes "evdev+aliases(qwerty)" {
     <HNGL> = 130;
     <HJCV> = 131;
     <AE13> = 132;
-    <LWIN> = 37; //Changed from 133 to 37
+    <LWIN> = 133;
     <RWIN> = 134;
     <COMP> = 135;
     <STOP> = 136;
