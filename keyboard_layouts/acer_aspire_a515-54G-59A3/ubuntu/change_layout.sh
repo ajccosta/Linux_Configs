@@ -1,5 +1,5 @@
 #!/bin/bash
-dir="/home/andre/Downloads/Linux_Configs/keyboard_layouts/acer_aspire_a515-54G-59A3/ubuntu"
+dir="$HOME/.config/Linux_Configs/keyboard_layouts/acer_aspire_a515-54G-59A3/ubuntu"
 
 file=$dir/.keyboard_bool
 
