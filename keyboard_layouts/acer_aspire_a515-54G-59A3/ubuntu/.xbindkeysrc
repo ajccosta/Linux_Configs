@@ -1,0 +1,2 @@
+"gnome-terminal --geometry=1x1+1141+27 --hide-menubar -e $HOME/.change_layout.sh"
+    Shift + grave + Release
