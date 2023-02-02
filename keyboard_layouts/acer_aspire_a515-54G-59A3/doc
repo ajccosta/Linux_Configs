@@ -1,9 +1,9 @@
 https://wiki.archlinux.org/title/X_keyboard_extension#Using_keymap
 
 This was done by first getting the .xkb configuration with the command
-	kbcomp $DISPLAY original.xkb
+	xkbcomp $DISPLAY original.xkb
 
-Then copying it so it is not lost (even though it should be  recovered on reboot)
+Then copying it so it is not lost (even though it should be recovered on reboot)
 
 Then changing the keycodes. This made it work as intended.
 Keycodes were gathered with "xev". Just check which keycodes are different
