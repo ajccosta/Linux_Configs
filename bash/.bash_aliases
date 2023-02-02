@@ -1,7 +1,7 @@
 #Usage:
 #	To set a specific keyboard do "xkbcomp layout_name.xkb $DISPLAY"
-alias mackb="xkbcomp $HOME/.config/Linux_Configs/keyboard_layouts/acer_aspire_a515-54G-59A3/ubuntu/macA2450.xkb $DISPLAY"
-alias ogkb="xkbcomp $HOME/.config/Linux_Configs/keyboard_layouts/acer_aspire_a515-54G-59A3/ubuntu/original.xkb $DISPLAY"
+alias mackb="setxkbmap -model macA2450 && xkbcomp $HOME/.config/Linux_Configs/keyboard_layouts/acer_aspire_a515-54G-59A3/ubuntu/macA2450.xkb $DISPLAY"
+alias ogkb="setxkbmap -model original && xkbcomp $HOME/.config/Linux_Configs/keyboard_layouts/acer_aspire_a515-54G-59A3/ubuntu/original.xkb $DISPLAY"
 alias shut="shutdown now"
 alias restart="shutdown now -r"
 alias open="xdg-open"
