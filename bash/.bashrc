@@ -1,8 +1,20 @@
-#Add the following lines to .bashrc
-#run alias to set mac keyboard layout
+magickb_is_connected=$(bt-device --info="Magic Keyboard" | grep "Connected" | cut -d " " -f 4)
 model=$(setxkbmap -query | grep model | sed 's/model:      //')
-set_model="macA2450"
-if [ $model != $set_model ]; then
-  echo "Setting Keyboard layout to macA2450"
-  mackb &> /dev/null
+
+if [[ $magickb_is_connected == "1" ]]; then
+  magickb_model="macA2450"
+  if [ $model != $magickb_model ]; then
+    echo "Magic Keyboard connected!"
+    echo "Setting Keyboard layout to macA2450"
+    mackb &> /dev/null
+    xbindkeys
+  fi
+
+else
+  ogkb_model="original"
+  if [ $model != $ogkb_model ]; then
+    echo "Magic Keyboard not connected."
+    echo "Setting Keyboard layout to original layout"
+    ogkb &> /dev/null
+  fi
 fi
