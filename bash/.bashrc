@@ -6,15 +6,17 @@ if [[ $magickb_is_connected == "1" ]]; then
   if [ $model != $magickb_model ]; then
     echo "Magic Keyboard connected!"
     echo "Setting Keyboard layout to macA2450"
+    #run alias to set keyboard layout
     mackb &> /dev/null
     xbindkeys
   fi
 
 else
-  ogkb_model="original"
+  ogkb_model="pc105"
   if [ $model != $ogkb_model ]; then
     echo "Magic Keyboard not connected."
     echo "Setting Keyboard layout to original layout"
+    #run alias to set keyboard layout
     ogkb &> /dev/null
   fi
 fi
