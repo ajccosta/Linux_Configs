@@ -42,7 +42,7 @@ xkb_keycodes "evdev+aliases(qwerty)" {
     <AC09> = 46;
     <AC10> = 47;
     <AC11> = 48;
-    <TLDE> = 49;
+    <TLDE> = 94; //49
     <LFSH> = 50;
     <BKSL> = 51;
     <AB01> = 52;
@@ -60,7 +60,7 @@ xkb_keycodes "evdev+aliases(qwerty)" {
     <LALT> = 64;
     <SPCE> = 65;
     <CAPS> = 66;
-    <FK01> = 67;
+    <FK01> = 232;
     <FK02> = 68;
     <FK03> = 69;
     <FK04> = 70;
@@ -86,7 +86,7 @@ xkb_keycodes "evdev+aliases(qwerty)" {
      <KP0> = 90;
     <KPDL> = 91;
     <LVL3> = 92;
-    <LSGT> = 94;
+    <LSGT> = 49; //94
     <FK11> = 95;
     <FK12> = 96;
     <AB11> = 97;
@@ -224,7 +224,7 @@ xkb_keycodes "evdev+aliases(qwerty)" {
     <I229> = 229;
     <I230> = 230;
     <I231> = 231;
-    <I232> = 232;
+    //<I232> = 232;
     <I233> = 233;
     <I234> = 234;
     <I235> = 235;
@@ -1425,7 +1425,7 @@ xkb_symbols "pc+pt(mac)+us:2+inet(evdev)" {
         symbols[Group1]= [            less,         greater,       backslash,       backslash ]
     };
     key <LFSH> {         [         Shift_L ] };
-    key <I232> {         [         Shift_L ] };
+    //key <I232> {         [         Shift_L ] };
     key <BKSL> {
         type[group1]= "FOUR_LEVEL",
         symbols[Group1]= [       backslash,             bar,      dead_grave,      dead_breve ],
@@ -1644,7 +1644,7 @@ xkb_symbols "pc+pt(mac)+us:2+inet(evdev)" {
         type= "PC_CONTROL_LEVEL2",
         symbols[Group1]= [           Pause,           Break ]
     };
-    key <I128> {         [     XF86LaunchA ] };
+    key <I128> {         [    XF86TaskPane ] };
     key <I129> {         [      KP_Decimal,      KP_Decimal ] };
     key <HNGL> {         [          Hangul ] };
     key <HJCV> {         [    Hangul_Hanja ] };
@@ -1662,9 +1662,10 @@ xkb_symbols "pc+pt(mac)+us:2+inet(evdev)" {
     key <FIND> {         [            Find ] };
     key  <CUT> {         [         XF86Cut ] };
     key <HELP> {         [            Help ] };
-    key <I147> {         [      XF86MenuKB ] };
+    //key <I147> {         [      XF86MenuKB ] };
     key <I148> {         [  XF86Calculator ] };
-    key <I150> {         [       XF86Sleep ] };
+    //key <I150> {         [       XF86Sleep ] };
+    key <I150> {         [       XF86Calculator ] };
     key <I151> {         [      XF86WakeUp ] };
     key <I152> {         [    XF86Explorer ] };
     key <I153> {         [        XF86Send ] };
@@ -1760,7 +1761,7 @@ xkb_symbols "pc+pt(mac)+us:2+inet(evdev)" {
     key <I255> {         [      XF86RFKill ] };
     modifier_map Control { <LCTL> };
     modifier_map Shift { <LFSH> };
-    modifier_map Shift { <I232> };
+    //modifier_map Shift { <I232> };
     modifier_map Shift { <RTSH> };
     modifier_map Mod1 { <LALT> };
     modifier_map Lock { <CAPS> };
